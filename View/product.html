@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f7fa" />
+    <link rel="shortcut icon" href="../Image/Logo title.svg" />
+    <title>ROSE Coffee</title>
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="../Content/index.css" />
+    <link rel="stylesheet" href="../Content/Similarity-style.css" />
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="../Script/Similarity-script.js" defer></script>
+    <script src="../Script/product.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container-fluid p-0 m-0">
+      <!-- alert -->
+      <div class="container-alert"></div>
+      <!-- offline -->
+      <div class="container-offline">
+        <div id="wifi-loader">
+          <svg class="circle-outer" viewBox="0 0 86 86">
+            <circle class="back" cx="43" cy="43" r="40"></circle>
+            <circle class="front" cx="43" cy="43" r="40"></circle>
+            <circle class="new" cx="43" cy="43" r="40"></circle>
+          </svg>
+          <svg class="circle-middle" viewBox="0 0 60 60">
+            <circle class="back" cx="30" cy="30" r="27"></circle>
+            <circle class="front" cx="30" cy="30" r="27"></circle>
+          </svg>
+          <svg class="circle-inner" viewBox="0 0 34 34">
+            <circle class="back" cx="17" cy="17" r="14"></circle>
+            <circle class="front" cx="17" cy="17" r="14"></circle>
+          </svg>
+          <div class="text" data-text="اتصال قطع شد"></div>
+        </div>
+      </div>
+      <!-- header -->
+      <header>
+        <!-- menu -->
+        <div class="row p-0 m-0">
+          <div class="col p-0 m-0">
+            <nav>
+              <!-- menu Laptop -->
+              <menu class="menu">
+                <ul class="ul-menu">
+                  <li class="item-menu">
+                    <a href="../index.html" class="link-menu"> خانه </a>
+                  </li>
+                  <li class="item-menu">
+                    <a href="#" class="link-menu"> محصولات </a>
+                  </li>
+                  <li class="item-menu">
+                    <a href="#" class="link-menu"> درباره </a>
+                  </li>
+                  <li class="item-menu">
+                    <a href="#" class="link-menu"> ارتباط با ما </a>
+                  </li>
+                </ul>
+                <ul class="ul-brand">
+                  <li class="item-brand">
+                    <div class="brand">
+                      ROSE C<span class="o-brand">O</span>ffee
+                    </div>
+                  </li>
+                </ul>
+              </menu>
+              <!-- menu Mobile -->
+              <menu class="menu-mobile">
+                <ul class="ul-menu-mobile">
+                  <li class="item-menu-mobile">
+                    <div class="hamburger">
+                      <span class="line-one"></span>
+                      <span class="line-two"></span>
+                      <span class="line-tree"></span>
+                    </div>
+                  </li>
+                  <li class="item-menu-mobile">
+                    <div class="brand">
+                      ROSE C<span class="o-brand">O</span>ffee
+                    </div>
+                  </li>
+                </ul>
+              </menu>
+              <!-- sub menu -->
+              <menu class="sub-menu">
+                <ul class="ul-sub-menu">
+                  <li class="item-sub-menu">
+                    <a href="../index.html" class="link-sub-menu"> خانه </a>
+                  </li>
+                  <li class="item-sub-menu">
+                    <a href="#" class="link-sub-menu"> محصولات </a>
+                  </li>
+                  <li class="item-sub-menu">
+                    <a href="#" class="link-sub-menu"> درباره </a>
+                  </li>
+                  <li class="item-sub-menu">
+                    <a href="#" class="link-sub-menu"> ارتباط با ما </a>
+                  </li>
+                </ul>
+              </menu>
+              <div class="slider-sub-menu"></div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- main -->
+      <main class="mt-1 p-0">
+        <div class="row p-0 m-0">
+          <div class="col-12 p-0 m-0">
+            <h2>محصولات</h2>
+            <div class="container-filter">
+              <div class="parent-filter" dir="ltr">
+                <div class="box-filter box-filter-1">
+                  <img src="../Image/coffee.jpg" class="img-box-filter" />
+                  <div class="text-box-filter">نوشیدنی گرم</div>
+                </div>
+                <div class="box-filter box-filter-2">
+                  <img src="../Image/cold drink.jpg" class="img-box-filter" />
+                  <div class="text-box-filter">نوشیدنی سرد</div>
+                </div>
+                <div class="box-filter box-filter-3">
+                  <img src="../Image/Fruit juice.jpg" class="img-box-filter" />
+                  <div class="text-box-filter">آب میوه</div>
+                </div>
+                <div class="box-filter box-filter-4">
+                  <img
+                    src="../Image/Welcome to the ME-ECM 2022 espresso machine.webp"
+                    class="img-box-filter"
+                  />
+                  <div class="text-box-filter">قهوه ساز</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row p-0 m-0">
+          <div class="col-12 p-0 m-0">
+            <div class="container-card"></div>
+          </div>
+        </div>
+      </main>
+      <!-- footer -->
+      <footer class="mt-5 p-0">
+        <div class="container-footer">
+          <div class="row p-0 mt-2">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 p-0 m-0">
+              <div class="parent-box-1">
+                <div class="brand">
+                  ROSE C<span class="o-brand">O</span>ffee
+                </div>
+                <div class="title-box-1">
+                  <div>
+                    آدرس:
+                    <address>تهران، تهران</address>
+                  </div>
+                  <div>
+                    تماس :
+                    <br />
+                    <a href="tel:09123456789" dir="ltr">+۹۸۹۱۲ ۳۴۵ ۶۷۸۹</a>
+                    <br />
+                    <a href="tel:09123456788" dir="ltr">+۹۸۹۱۲ ۳۴۵ ۶۷۸۸</a>
+                    <br />
+                    <a href="mailto:sadra.r.official7@gmail.com">
+                      پست الکترونیکی
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 p-0 m-0">
+              <div class="parent-box-2">
+                <div class="title-box-2">به زودی</div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 p-0 m-0">
+              <div class="parent-box-3">
+                <div class="title-box-3">به زودی</div>
+              </div>
+            </div>
+          </div>
+          <div class="row p-0 m-0">
+            <div class="col p-0 m-0">
+              <hr />
+              <div class="parent-footer-end">
+                <div>
+                  <p>coffee</p>
+                  <p>web ROSE</p>
+                </div>
+                <p>© 2023 ROSE Coffee</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
